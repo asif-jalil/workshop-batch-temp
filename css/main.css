@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============================
+Google font 
+=============================*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;500;600;700&family=Lato&family=Open+Sans:wght@400;600&display=swap');
+
+
+/* ======================
+Default CSS
+=======================*/
+
+body {
+  background: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container::before,
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col-25 {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-40 {
+  width: 40%;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-60 {
+  width: 60%;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+  padding: 0 15px;
+}
+
+
+
+
+
+
+/* ======================
+Author custom CSS
+=======================*/
+
+.topbar{
+  background: #f3f3f3;
+  padding: 15px 0;
+}
+
+.topbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-notice p{
+  color: #868383;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-menu ul {
+  display: flex;
+}
+
+.top-menu ul li{
+  color: #868383;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+}
+
+.top-menu ul li:hover{
+  color: #e13ed7;
+}
+
+#cart{
+  color: #e13ed7;
+}
+
+header{
+  background: black;
+}
+
+.main-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.main-menu{
+  display: flex;
+}
+
+.main-menu li{
+  color: #fff;
+  margin-left: 30px;
+}
+
+.main-menu li:hover{
+  color: #e13ed7;
+}
+
+.banner{
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content{
+  height: 190px;
+  width: 500px;
+  background: rgba(225, 62, 215, 0.63);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.banner-content h5 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 7px;
+  word-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-content  h1{
+  font-size: 56px;
+}
